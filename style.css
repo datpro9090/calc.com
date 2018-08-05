@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(lightblue, rgb(59, 22, 22)) no-repeat fixed;
+  background-size: cover;
+}
+
+.calculator {
+  background: rgb(255, 0, 230);
+  padding-top: 7px;
+  align: center;
+  width: 280px;
+}
+
+.screen {
+  height: 60px;
+  margin: 7px 7px 7px 7px;
+  background: #16f402;
+  font-size: 30px;
+  color: violet;
+  line-height: 60px;
+  text-align: right;
+  padding-right: 7px;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+  margin: 7px 7px 7px 7px;
+  border: none;
+  border-radius: 9px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.8);
+  transition: box-shadow 200ms;
+}
+
+button:hover {
+  box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.3);
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero {
+  background: #B5B5B5;
+}
+
+.calculate {
+  background: #9FE200;
+}
+
+.operator {
+  background: #FFB632;
+}
+
+.clear {
+  background: #FF1D17;
+  color: rgba(255, 255, 255, 0.8);
+}
